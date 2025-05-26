@@ -151,7 +151,7 @@ body {
   z-index: 9999;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  box-shadow: 10px 30px var(--transparent-color);
+  box-shadow: 0 5px 30px var(--gray-color);
 }
 
 .suspended:hover {
@@ -357,4 +357,11 @@ body {
   .products {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.bebidas img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  rotate: 30deg 0;
 }
