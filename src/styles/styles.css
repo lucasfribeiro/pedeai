@@ -207,11 +207,6 @@ body {
 
 }
 
-@media (max-width: 1476px){
-    .products{
-        grid-template-columns: 2fr ;
-    }
-}
 
 
 
@@ -274,6 +269,8 @@ body {
 .content {
     padding: 20px;
     display: flex;
+    max-width: 1500px;
+  margin: 0 auto;
     flex-direction: column;
     gap: 20px;
 }
@@ -356,3 +353,8 @@ body {
   background-color: #c80000;
 }
 
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
